@@ -20,7 +20,7 @@
     }
 
     &:selected {
-      background-color: $primary;
+      background-color: $switch-list-selected-box;
       color: on($primary);
     }
   }

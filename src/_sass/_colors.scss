@@ -192,3 +192,5 @@ $titlebutton-min:                        $button-min;
 
 // workaround for GTK3 @placeholder_text_color which doesn't allow translucent colors
 $placeholder_text_color:                if($variant == 'light', mix(black, $base, 60%), mix(white, $base, 70%));
+
+$switch-list-selected-box: #7474749a;
